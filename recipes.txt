@@ -1,0 +1,7 @@
+Title: Spaghetti Bolognese
+Ingredients: spaghetti, beef, tomato sauce
+---
+Title: Chicken Curry
+Ingredients: chicken, curry powder, coconut milk
+---
+
