@@ -1,7 +1,15 @@
-Title: Spaghetti Bolognese
+Title: Classic Spaghetti
 Ingredients: spaghetti, beef, tomato sauce
 ---
 Title: Chicken Curry
-Ingredients: chicken, curry powder, coconut milk
+Ingredients: chicken, curry powder, coconut milk, rice
 ---
-
+Title: Beef Stew
+Ingredients: beef, potatoes, carrots, onions
+---
+Title: Vegetable Combo
+Ingredients: broccoli, carrots, bell peppers, soy sauce
+---
+Title: Macarons
+Ingredients: almond flour, sugar powder, egg white, granulated sugar
+---
