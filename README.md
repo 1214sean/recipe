@@ -19,4 +19,4 @@ python app.py
 Technologies Used: 
 Python, SQL
 
-Troubleshooting 
+TROUBLESHOOTING
