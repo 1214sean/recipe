@@ -1,81 +1,81 @@
 class Recipe:
-    def __init__(rec,name,notes):
-        rec._name=name
-        rec._notes=notes
+    def __init__(self,name,notes):
+        self._name=name
+        self._notes=notes
 
-    def get_name(rec):
-        return rec._age
+    def get_name(self):
+        return self._age
     
-    def set_name(rec,nm):
-        rec._name = nm
+    def set_name(self,nm):
+        self._name = nm
     
-    def get_notes(rec):
-        return rec._notes
+    def get_notes(self):
+        return self._notes
     
-    def set_notes(rec,nt):
-        rec._notes = nt
+    def set_notes(self,nt):
+        self._notes = nt
     
 class Ingredients(Recipe):
-    def __init_subclass__(ing,quant,unit,type):
-        ing._quant=quant
-        ing._unit=unit
-        ing._type=type
+    def __init_subclass__(self,quant,unit,type):
+        self._quant=quant
+        self._unit=unit
+        self._type=type
 
-    def get_quant(ing):
-        return ing._quant
+    def get_quant(self):
+        return self._quant
     
-    def set_quant(ing,qt):
-        ing._quant = qt
+    def set_quant(self,qt):
+        self._quant = qt
 
-    def get_unit(ing):
-        return ing._unit
+    def get_unit(self):
+        return self._unit
     
-    def set_unit(ing,un):
-        ing._unit = un
+    def set_unit(self,un):
+        self._unit = un
     
-    def get_type(ing):
-        return ing._type
+    def get_type(self):
+        return self._type
     
-    def set_type(ing, ty):
-        ing._type = ty
+    def set_type(self, ty):
+        self._type = ty
 
 class ShoppingList(Recipe):
-    def __init_subclass__(slist,amount,measure,item):
-        slist._amount=amount
-        slist._measure=measure
-        slist._item=item
+    def __init_subclass__(self,amount,measure,item):
+        self._amount=amount
+        self._measure=measure
+        self._item=item
 
-    def get_amount(slist):
-        return slist._amount
+    def get_amount(self):
+        return self._amount
 
-    def set_amount(slist,am):
-        slist._amount = am
+    def set_amount(self,am):
+        self._amount = am
 
-    def get_measure(slist):
-        return slist._measure
+    def get_measure(self):
+        return self._measure
     
-    def set_measure(slist,ms):
-        slist._measure = ms
+    def set_measure(self,ms):
+        self._measure = ms
 
-    def get_item(slist):
-        return slist._item
+    def get_item(self):
+        return self._item
     
-    def set_item(slist,it):
-        slist._item = it
+    def set_item(self,it):
+        self._item = it
 
 class Procedure(Recipe):
-    def __init_subclass__(plist,step_num,step):
-        plist._step_num=step_num
-        plist._step=step
+    def __init_subclass__(self,step_num,step):
+        self._step_num=step_num
+        self._step=step
 
-    def get_step_num(plist):
-        return plist._step_num
+    def get_step_num(self):
+        return self._step_num
     
-    def set_step_num(plist,sn):
-        plist._step_num = sn
+    def set_step_num(self,sn):
+        self._step_num = sn
 
-    def get_step(plist):
-        return plist._step
+    def get_step(self):
+        return self._step
     
-    def set_step(plist,st):
-        plist._step = st
+    def set_step(self,st):
+        self._step = st
