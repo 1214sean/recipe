@@ -86,12 +86,9 @@ def main():
     if os.path.exists("Recipe_Database.txt"):
         with open("Recipe_Database.txt", "r") as database:
             recipe_list = []
-            print("in if statement")
             line = database.readline()
             while line:
                 recipe_list.append(str(line).strip())
-                print(line)
-                print("Read in a line")
                 line = database.readline()
         database.close()
     else:
