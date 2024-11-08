@@ -1,3 +1,5 @@
+import os.path
+
 class Recipe:
     def __init__(self,name,notes):
         self._name=name
@@ -79,3 +81,22 @@ class Procedure(Recipe):
     
     def set_step(self,st):
         self._step = st
+
+def main():
+    if os.path.exists("Recipe_Database.txt"):
+        with open("Recipe_Database.txt", "r") as database:
+            recipe_list = []
+            print("in if statement")
+            line = database.readline()
+            while line:
+                recipe_list.append(str(line).strip())
+                print(line)
+                print("Read in a line")
+                line = database.readline()
+        database.close()
+    else:
+        database = open("Recipe_Database.txt", "x")
+
+    print(recipe_list)
+
+main()
