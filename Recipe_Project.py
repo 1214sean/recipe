@@ -90,10 +90,24 @@ def main():
             while line:
                 recipe_list.append(str(line).strip())
                 line = database.readline()
-        database.close()
-    else:
-        database = open("Recipe_Database.txt", "x")
+    # else:
+    #     database = open("Recipe_Database.txt", "x")
 
-    print(recipe_list)
+    #print(recipe_list)
+    database = open("Recipe_Database.txt", "w")
+    loop_out = 1
 
+    while loop_out != 0:
+        enter_choice = str(input("Would you like to enter a new recipe? Y-->yes : N-->no"))
+        if enter_choice == "Y":
+            rec_title = str(input("Please enter the recipe name: "))
+            recipe_list.append(rec_title)
+            database.write(rec_title)
+            database.write("\n")
+        elif enter_choice != "N":
+            enter_choice = str(input("Please enter a valid choice. Would you like to enter a new recipe? Y-->yes : N-->no"))
+
+        loop_out = int(input("Would you like to continue? 1-->cont 0-->quit"))
+
+    database.close()
 main()
