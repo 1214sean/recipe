@@ -1,0 +1,48 @@
+[
+    {
+        "title": "Beef Stew",
+        "ingredients": "beef, potatoes, carrots, onions",
+        "image_path": "/Users/sean/Desktop/recipe/pasta.png",
+        "steps": "\n1. Brown the beef in a pot.\n2. Add chopped vegetables and saut\u00e9 briefly.\n3. Cover with water and simmer until tender.\n4. Season to taste and serve."
+    },
+    {
+        "title": "cake",
+        "ingredients": "egg white, flour",
+        "steps": "\n1.wisk\n2.bake"
+    },
+    {
+        "title": "Canele",
+        "ingredients": "sugar, flour, milk",
+        "image_path": "/Users/sean/Desktop/recipe/pasta.png",
+        "steps": "\n1. Prepare the batter and let it rest overnight.\n2. Preheat the oven and grease canele molds.\n3. Pour the batter into the molds.\n4. Bake until dark and caramelized."
+    },
+    {
+        "title": "Chicken Curry",
+        "ingredients": "chicken, curry powder, coconut milk, rice",
+        "image_path": "/Users/sean/Desktop/recipe/pasta.png",
+        "steps": "\n1. Cook the chicken until browned.\n2. Add curry powder and stir well.\n3. Pour in coconut milk and simmer.\n4. Serve with rice."
+    },
+    {
+        "title": "Classic Spaghetti",
+        "ingredients": "spaghetti, beef, tomato sauce",
+        "image_path": "/Users/sean/Desktop/recipe/pasta.png",
+        "steps": "\n1. Boil the spaghetti until al dente.\n2. Cook the beef until browned.\n3. Add tomato sauce and simmer.\n4. Serve over spaghetti."
+    },
+    {
+        "title": "Macarons",
+        "ingredients": "almond flour, sugar powder, egg white, granulated sugar",
+        "image_path": "/Users/sean/Desktop/recipe/pasta.png",
+        "steps": "\n1. Whip egg whites until stiff peaks form.\n2. Fold in almond flour and powdered sugar.\n3. Pipe onto a baking sheet and let rest.\n4. Bake and fill with ganache or buttercream."
+    },
+    {
+        "title": "Vegetable Combo",
+        "ingredients": "broccoli, carrots, bell peppers, soy sauce",
+        "image_path": "/Users/sean/Desktop/recipe/pasta.png",
+        "steps": "\n1. Chop all vegetables into bite-sized pieces.\n2. Stir-fry in a hot pan with a bit of oil.\n3. Add soy sauce and mix well.\n4. Serve warm."
+    },
+    {
+        "title": "waffle",
+        "ingredients": "flour, egg, milk",
+        "steps": "\n1.preheat oven\n2.pour in the liquid"
+    }
+]
