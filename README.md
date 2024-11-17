@@ -1,5 +1,5 @@
 Project Description: Our software is a recipe book app with search, rate, and diary functionality. 
-It also recomends recipe acoording to emotion. A note book feature is added to allow users to store their own recipe and photos.
+It also recomends recipe according to emotion. A note book feature is added to allow users to store their own recipe and photos.
 
 Features
 Search Recipes: Users can search for recipes by recipe names and ingredients
