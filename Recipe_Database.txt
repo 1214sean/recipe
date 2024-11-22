@@ -1,0 +1,40 @@
+Title: bangfsaf
+Ingredients: 1ee (1 fds), weq (2 fa)
+Steps: 1. cake, 2. eat
+---
+Title: Beef Stew
+Ingredients: beef (500 g), potatoes (200 g), carrots (100 g), onions (1 piece)
+Steps: 1. Brown the beef in a pot., 2. Add chopped vegetables and sauté briefly., 3. Cover with water and simmer until tender., 4. Season to taste and serve.
+---
+Title: Cake
+Ingredients: egg white (4 pieces), flour (200 g)
+Steps: 1. Whisk egg whites., 2. Mix with flour and bake.
+---
+Title: Canele
+Ingredients: sugar (200 g), flour (100 g), milk (250 ml)
+Steps: 1. Prepare the batter and let it rest overnight., 2. Preheat the oven and grease canele molds., 3. Pour the batter into the molds., 4. Bake until dark and caramelized.
+---
+Title: Cheese Cake
+Ingredients: flour (10 g), cheese (100 ml)
+Steps: 1. Whisk ingredients., 2. Pour into pan and bake.
+---
+Title: Chicken Curry
+Ingredients: chicken (500 g), curry powder (2 tbsp), coconut milk (400 ml), rice (200 g)
+Steps: 1. Cook the chicken until browned., 2. Add curry powder and stir well., 3. Pour in coconut milk and simmer., 4. Serve with rice.
+---
+Title: Classic Spaghetti
+Ingredients: spaghetti (200 g), beef (150 g), tomato sauce (100 ml)
+Steps: 1. Boil the spaghetti until al dente., 2. Cook the beef until browned., 3. Add tomato sauce and simmer., 4. Serve over spaghetti.
+---
+Title: Macarons
+Ingredients: almond flour (100 g), sugar powder (100 g), egg white (3 pieces), granulated sugar (50 g)
+Steps: 1. Whip egg whites until stiff peaks form., 2. Fold in almond flour and powdered sugar., 3. Pipe onto a baking sheet and let rest., 4. Bake and fill with ganache or buttercream.
+---
+Title: Vegetable Combo
+Ingredients: broccoli (100 g), carrots (100 g), bell peppers (50 g), soy sauce (2 tbsp)
+Steps: 1. Chop all vegetables into bite-sized pieces., 2. Stir-fry in a hot pan with a bit of oil., 3. Add soy sauce and mix well., 4. Serve warm.
+---
+Title: Waffle
+Ingredients: milk (200 g), egg (2 pieces), water (100 ml)
+Steps: 1. Preheat oven., 2. Pour in the batter and bake until golden brown.
+---
