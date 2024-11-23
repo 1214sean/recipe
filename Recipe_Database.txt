@@ -1,14 +1,38 @@
-Title: bangfsaf
-Ingredients: 1ee (1 fds), weq (2 fa)
-Steps: 1. cake, 2. eat
+Title: Apple Pie
+Ingredients: pie crust (2 pieces), apples (5 pieces), sugar (150 g), cinnamon (1 tsp), butter (2 tbsp)
+Steps: 1. Slice apples and mix with sugar and cinnamon., 2. Fill pie crust with apples and top with butter., 3. Cover with crust and bake at 180°C for 45 minutes.
+---
+Title: Avocado Toast
+Ingredients: avocado (1 piece), bread (2 slices), lemon juice (1 tsp), salt (1/2 tsp)
+Steps: 1. Mash avocado with lemon juice and salt., 2. Spread on toasted bread and serve.
+---
+Title: Baked Ziti
+Ingredients: pasta (200 g), ricotta cheese (150 g), marinara sauce (200 ml), mozzarella cheese (100 g)
+Steps: 1. Cook pasta and mix with marinara sauce., 2. Layer with ricotta and mozzarella., 3. Bake at 180°C for 20 minutes.
+---
+Title: Banana Bread
+Ingredients: ripe bananas (3 pieces), flour (200 g), sugar (150 g), eggs (2 pieces), butter (100 g)
+Steps: 1. Mash bananas and mix with sugar and butter., 2. Add eggs and flour., 3. Pour into a loaf pan and bake at 175°C for 45 minutes.
+---
+Title: BBQ Chicken Wings
+Ingredients: chicken wings (500 g), BBQ sauce (200 ml), salt (1 tsp), black pepper (1 tsp)
+Steps: 1. Season chicken wings with salt and pepper., 2. Bake in the oven at 200°C for 25 minutes., 3. Toss with BBQ sauce and bake for an additional 10 minutes.
 ---
 Title: Beef Stew
 Ingredients: beef (500 g), potatoes (200 g), carrots (100 g), onions (1 piece)
 Steps: 1. Brown the beef in a pot., 2. Add chopped vegetables and sauté briefly., 3. Cover with water and simmer until tender., 4. Season to taste and serve.
 ---
-Title: Cake
-Ingredients: egg white (4 pieces), flour (200 g)
-Steps: 1. Whisk egg whites., 2. Mix with flour and bake.
+Title: Beef Tacos
+Ingredients: ground beef (300 g), taco shells (8 pieces), lettuce (50 g), cheddar cheese (50 g), taco seasoning (2 tbsp)
+Steps: 1. Cook ground beef with taco seasoning., 2. Fill taco shells with beef, lettuce, and cheese., 3. Serve with salsa.
+---
+Title: Blueberry Pancakes
+Ingredients: flour (200 g), milk (250 ml), eggs (2 pieces), blueberries (100 g)
+Steps: 1. Mix flour, milk, and eggs., 2. Fold in blueberries., 3. Cook on a skillet until golden brown on both sides., 4. Serve warm with syrup.
+---
+Title: Caesar Salad
+Ingredients: romaine lettuce (1 head), croutons (100 g), parmesan cheese (50 g), caesar dressing (100 ml)
+Steps: 1. Chop lettuce and place in a bowl., 2. Add croutons and parmesan., 3. Drizzle with dressing and toss well.
 ---
 Title: Canele
 Ingredients: sugar (200 g), flour (100 g), milk (250 ml)
@@ -18,23 +42,75 @@ Title: Cheese Cake
 Ingredients: flour (10 g), cheese (100 ml)
 Steps: 1. Whisk ingredients., 2. Pour into pan and bake.
 ---
+Title: Chicken Caesar Wrap
+Ingredients: chicken breast (200 g), Caesar dressing (50 ml), lettuce (50 g), tortillas (2 pieces), parmesan cheese (20 g)
+Steps: 1. Cook chicken and slice., 2. Mix with lettuce, parmesan, and dressing., 3. Wrap in tortillas.
+---
 Title: Chicken Curry
 Ingredients: chicken (500 g), curry powder (2 tbsp), coconut milk (400 ml), rice (200 g)
 Steps: 1. Cook the chicken until browned., 2. Add curry powder and stir well., 3. Pour in coconut milk and simmer., 4. Serve with rice.
+---
+Title: Chicken Pot Pie
+Ingredients: chicken breast (200 g), peas (100 g), carrots (100 g), pie crust (2 pieces), chicken broth (200 ml)
+Steps: 1. Cook chicken and vegetables in broth., 2. Fill pie crust with mixture., 3. Cover with crust and bake at 180°C for 30 minutes.
+---
+Title: Chocolate Brownies
+Ingredients: butter (100 g), sugar (200 g), cocoa powder (50 g), flour (100 g), eggs (2 pieces)
+Steps: 1. Melt butter and mix with sugar and cocoa., 2. Add flour and eggs., 3. Pour into a pan and bake at 180°C for 25 minutes.
 ---
 Title: Classic Spaghetti
 Ingredients: spaghetti (200 g), beef (150 g), tomato sauce (100 ml)
 Steps: 1. Boil the spaghetti until al dente., 2. Cook the beef until browned., 3. Add tomato sauce and simmer., 4. Serve over spaghetti.
 ---
+Title: Garlic Butter Shrimp
+Ingredients: shrimp (300 g), garlic (3 cloves), butter (2 tbsp), parsley (1 tbsp)
+Steps: 1. Melt butter in a skillet., 2. Add minced garlic and cook until fragrant., 3. Add shrimp and cook until pink., 4. Garnish with parsley.
+---
+Title: Greek Yogurt Parfait
+Ingredients: Greek yogurt (200 g), granola (50 g), honey (2 tbsp), mixed berries (100 g)
+Steps: 1. Layer yogurt, granola, and berries in a glass., 2. Drizzle with honey before serving.
+---
+Title: Grilled Cheese Sandwich
+Ingredients: bread (2 slices), cheddar cheese (2 slices), butter (1 tbsp)
+Steps: 1. Butter one side of each bread slice., 2. Place cheese between the slices, buttered side out., 3. Cook in a skillet until golden brown on each side.
+---
+Title: Lemonade
+Ingredients: lemon juice (100 ml), water (500 ml), sugar (100 g)
+Steps: 1. Mix lemon juice, water, and sugar in a pitcher., 2. Stir well until sugar dissolves., 3. Serve over ice.
+---
 Title: Macarons
 Ingredients: almond flour (100 g), sugar powder (100 g), egg white (3 pieces), granulated sugar (50 g)
 Steps: 1. Whip egg whites until stiff peaks form., 2. Fold in almond flour and powdered sugar., 3. Pipe onto a baking sheet and let rest., 4. Bake and fill with ganache or buttercream.
 ---
-Title: Vegetable Combo
-Ingredients: broccoli (100 g), carrots (100 g), bell peppers (50 g), soy sauce (2 tbsp)
-Steps: 1. Chop all vegetables into bite-sized pieces., 2. Stir-fry in a hot pan with a bit of oil., 3. Add soy sauce and mix well., 4. Serve warm.
+Title: Mushroom Soup
+Ingredients: mushrooms (300 g), onion (1 piece), butter (2 tbsp), cream (100 ml), chicken broth (500 ml)
+Steps: 1. Cook onions and mushrooms in butter until soft., 2. Add chicken broth and simmer for 15 minutes., 3. Stir in cream before serving.
 ---
-Title: Waffle
-Ingredients: milk (200 g), egg (2 pieces), water (100 ml)
-Steps: 1. Preheat oven., 2. Pour in the batter and bake until golden brown.
+Title: Roasted Vegetables
+Ingredients: carrots (200 g), bell peppers (100 g), zucchini (150 g), olive oil (3 tbsp), salt (1 tsp)
+Steps: 1. Cut vegetables into pieces., 2. Toss with olive oil and salt., 3. Roast at 200°C for 25 minutes.
+---
+Title: Shrimp Scampi
+Ingredients: shrimp (300 g), garlic (3 cloves), butter (3 tbsp), white wine (100 ml), parsley (2 tbsp)
+Steps: 1. Cook garlic in butter., 2. Add shrimp and wine., 3. Cook until shrimp is pink, then sprinkle with parsley.
+---
+Title: Spinach Omelette
+Ingredients: eggs (3 pieces), spinach (100 g), feta cheese (50 g), salt (1/2 tsp)
+Steps: 1. Beat eggs and mix with salt., 2. Add spinach and cook in a pan., 3. Sprinkle feta on top and fold.
+---
+Title: Stuffed Bell Peppers
+Ingredients: bell peppers (4 pieces), ground beef (300 g), rice (150 g), tomato sauce (100 ml)
+Steps: 1. Cut off tops of bell peppers and remove seeds., 2. Cook beef and mix with rice and tomato sauce., 3. Stuff peppers and bake at 180°C for 25 minutes.
+---
+Title: Tomato Bruschetta
+Ingredients: baguette (1 loaf), tomatoes (200 g), garlic (1 clove), basil (2 tbsp), olive oil (2 tbsp)
+Steps: 1. Toast baguette slices., 2. Mix chopped tomatoes, garlic, and basil., 3. Drizzle with olive oil and serve on toast.
+---
+Title: Veggie Burger
+Ingredients: black beans (200 g), breadcrumbs (50 g), onion (1 piece), garlic powder (1 tsp)
+Steps: 1. Mash black beans and mix with breadcrumbs, onion, and garlic powder., 2. Form into patties and cook in a skillet until browned.
+---
+Title: yogurt
+Ingredients: milk (100 ml), gelatin (10 g), sugar (10 ml)
+Steps: 1.Heat milk, 2.Cool and add gelatin, 3.Ferment
 ---
