@@ -30,10 +30,10 @@ class Ingredient:
 # Recipe Class
 class Recipe:
     # Constructor to initialize the Recipe class
-    def __init__(self, title, ingredients=None, steps=None):
+    def __init__(self, title, ingredients, steps):
         self.title = title
-        self.ingredients = ingredients or [] 
-        self.steps = steps or []
+        self.ingredients = ingredients
+        self.steps = steps
 
     # Adds an object to the ingredients list with an argument of type Ingredient
     def add_ingredient(self, ingredient):
