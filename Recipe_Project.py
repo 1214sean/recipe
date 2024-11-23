@@ -1,4 +1,6 @@
 import os.path
+#This is only a test version. The final app version is Recipe_Project_Final.py!!!!!!!!
+
 
 class Recipe:
     def __init__(self,name,notes):
