@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-
+#This is just a test file for our GUI the official program file is Recipe_Project_Final.py
 # Creating main window
 root = tk.Tk()
 root.title("Your Recipe Book")
