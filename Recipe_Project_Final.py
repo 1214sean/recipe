@@ -209,7 +209,8 @@ class RecipeApp:
                     )
                     if ingredient_data is None:
                         return  # User pressed cancel
-
+                    
+                    # check whether the input is valid
                     try:
                         new_ingredients.append(Ingredient.from_text(ingredient_data))
                     except ValueError:
@@ -231,12 +232,15 @@ class RecipeApp:
                     return  # User chose not to save changes
 
                 # Update the recipe
+                # Check whether all 3 fields are filled
                 if new_title and new_ingredients and new_steps:
                     recipe.title = new_title
                     recipe.ingredients = []
+                    # Add new ingredients to recipe
                     for ing in new_ingredients:
                         recipe.add_ingredient(ing)
                     recipe.steps = []
+                    # Add new steps to recipe
                     for step in new_steps.split(', '):
                         recipe.add_step(step)
                     self.manager.save_recipes()
@@ -301,15 +305,18 @@ class RecipeApp:
 
     # Function to determine number of ingredients required and creates the appropriate amount of text boxes to enter that many ingredients
     def create_ingredient_fields(self):
-        try:
+        
+        # check whether the input is valid
+        try: 
             num_ingredients = int(simpledialog.askstring("Ingredients", "How many ingredients do you want to add?"))
         except (TypeError, ValueError):
             messagebox.showerror("Invalid Input", "Please enter a valid number.")
             return
 
+        # destroy the previous entry boxes
         for widget in self.ingredient_frame.winfo_children():
             widget.destroy()
-
+        # clear ingredient entries list
         self.ingredient_entries.clear()
 
         tk.Label(self.ingredient_frame, text="Ingredient", font=("Arial", 10, "bold")).grid(row=0, column=1, pady=2)
@@ -342,16 +349,18 @@ class RecipeApp:
                 ingredients.append(Ingredient(name, quantity, unit))
 
         # Creation of the new Recipe object
+        # Check whether all 3 fields are filled
         if title and ingredients and steps:
-            new_recipe = Recipe(title, ingredients, steps)
+            new_recipe = Recipe(title, ingredients, steps) # Create a new Recipe object
             self.manager.add_recipe(new_recipe)
-            messagebox.showinfo("Success", "Recipe added successfully!")
+            messagebox.showinfo("Success", "Recipe added successfully!") 
             self.title_entry.delete(0, tk.END)
             self.steps_entry.delete("1.0", tk.END)
+            # Clear the ingredient entry boxes
             for entry_tuple in self.ingredient_entries:
                 for entry in entry_tuple:
                     entry.delete(0, tk.END)
-        else:
+        else: # if found empty fields show a error message
             messagebox.showwarning("Input Error", "Please provide a title, ingredients, and steps.")
     
     # Function to display all recipes to the user
@@ -364,11 +373,12 @@ class RecipeApp:
         scrollbar = ttk.Scrollbar(result_window, orient="vertical", command=canvas.yview)
         scrollable_frame = ttk.Frame(canvas)
 
+        # Add scrollable frame to canvas
         scrollable_frame.bind(
             "<Configure>",
             lambda e: canvas.configure(scrollregion=canvas.bbox("all"))
         )
-
+        # Add canvas to window
         canvas.create_window((0, 0), window=scrollable_frame, anchor="nw")
         canvas.configure(yscrollcommand=scrollbar.set)
 
@@ -376,16 +386,22 @@ class RecipeApp:
         for i, recipe in enumerate(self.manager.recipes):
             tk.Label(scrollable_frame, text=f"{i + 1}. {recipe.title}", font=("Arial", 12)).pack(anchor="w", pady=5)
 
+        # combine the canvas and scrollbar
         canvas.pack(side="left", fill="both", expand=True)
         scrollbar.pack(side="right", fill="y")
 
     # Function to delete a recipe
     def delete_recipe(self):
         title = simpledialog.askstring("Delete Recipe", "Enter the recipe title to delete:")
+        # If the user presses cancel don't do anything
         if title:
+            # Find the recipe to delete
             for recipe in self.manager.recipes:
+                # If the recipe title matches with title entered 
                 if recipe.title.lower() == title.lower():
+                    # Ask users to confirm before deleting
                     confirm = messagebox.askyesno("Confirm Deletion", f"Are you sure you want to delete '{title}'?")
+                    # delete the recipe when user confirmes
                     if confirm:
                         self.manager.delete_recipe(title)
                         messagebox.showinfo("Success", f"Recipe '{title}' deleted successfully.")
